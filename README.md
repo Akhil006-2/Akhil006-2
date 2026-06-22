@@ -422,41 +422,6 @@ Database Internals      — B-tree vs LSM-tree, WAL, MVCC, index design
 Consensus Protocols     — Raft log replication, leader election, split-brain prevention
 Observability           — The three pillars: metrics, logs, traces. Why you need all three.
 ```
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Akhil006-2&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=8b949e&rank_icon=github&include_all_commits=true" />
-&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akhil006-2&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=8b949e&langs_count=8" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com/?user=Akhil006-2&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=58A6FF&ring=58A6FF&fire=FF7B54&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Akhil006-2&theme=github-compact&bg_color=0d1117&color=58A6FF&line=58A6FF&point=FFFFFF&hide_border=true" width="96%" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Akhil006-2&theme=onestar&no-frame=true&no-bg=true&column=7&margin-w=10" />
-
-</div>
-
----
-
-## Contribution Activity
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Akhil006-2/Akhil006-2/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
-</div>
-
-> To enable the snake animation, add the GitHub Action below to your profile repository.
-
 ---
 
 ## 2027 Engineering Roadmap
@@ -478,43 +443,6 @@ Observability           — The three pillars: metrics, logs, traces. Why you ne
             ──▶  Apply: Google SWE Internship 2027
 
 2027        ──▶  Google SWE Internship
-```
-
----
-
-## GitHub Action — Contribution Snake
-
-```yaml
-# .github/workflows/snake.yml
-# Add this to your profile repository to generate the contribution snake animation.
-
-name: Generate Contribution Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    steps:
-      - uses: actions/checkout@v3
-
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
 ---
