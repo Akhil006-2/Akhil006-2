@@ -496,6 +496,5 @@ status: online
 <br/>
 
 <!-- FOOTER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,50:e8edf2,100:ffffff&height=100&section=footer" width="100%" #gh-dark-mode-only />
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=100&section=footer" width="100%" #gh-light-mode-only />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=timeAuto&height=100&section=footer" width="100%" />
 </div>
