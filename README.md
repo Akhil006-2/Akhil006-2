@@ -1,8 +1,14 @@
 <div align="center">
 
-<!-- BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=140&section=header&text=&animation=fadeIn" width="100%" />
+<p align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img alt="Akhil G Banner" src="assets/banner-dark.svg" width="100%">
+</picture>
+
+</p>
 <!-- TYPING HEADER -->
 <a href="https://github.com/Akhil006-2">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=42&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&height=70&lines=AKHIL+G" alt="Akhil G" />
