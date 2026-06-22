@@ -1,123 +1,571 @@
-# Akhil G
-**Software Engineer • AI Systems Builder • Backend Developer**
+<div align="center">
 
-<p align="left">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&background=00000000&width=550&lines=Software+Engineer;Backend+Infrastructure+Developer;AI+Systems+Builder;Distributed+Systems+Learner;System+Design+Enthusiast;Performance+%26+Algorithms+Focused" alt="Typing SVG" />
+<!-- BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=140&section=header&text=&animation=fadeIn" width="100%" />
+
+<!-- TYPING HEADER -->
+<a href="https://github.com/Akhil006-2">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=42&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&height=70&lines=AKHIL+G" alt="Akhil G" />
+</a>
+
+<a href="https://github.com/Akhil006-2">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=18&pause=2000&color=8B949E&center=true&vCenter=true&width=700&height=40&lines=Software+Engineer;Backend+Systems;Distributed+Systems;System+Design;High+Performance+Computing;AI+Systems;Open+Source;Algorithms" alt="Role Rotation" />
+</a>
+
+<br/>
+
+<!-- SOCIAL BADGES -->
+<p>
+  <a href="https://github.com/Akhil006-2">
+    <img src="https://img.shields.io/github/followers/Akhil006-2?label=Followers&style=flat-square&color=58A6FF&labelColor=161b22&logo=github" />
   </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/akhil-g-287249328">
+    <img src="https://img.shields.io/badge/LinkedIn-Akhil%20G-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=161b22" />
+  </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=Akhil006-2&style=flat-square&color=58A6FF&label=Profile+Views&labelColor=161b22" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Location-Coimbatore%2C+India-58A6FF?style=flat-square&logo=googlemaps&logoColor=white&labelColor=161b22" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Target-Google+SWE+2027-EA4335?style=flat-square&logo=google&logoColor=white&labelColor=161b22" />
 </p>
 
----
-
-### Biography
-I build high-performance backend systems, distributed architectures, and robust AI infrastructure. My engineering philosophy centers on reliability, observability, and scalability—turning research prototypes into production-grade systems. I focus on developing clean, maintainable software systems and solving complex algorithmic challenges. Currently preparing for the Google Software Engineering Internship 2027 while deepening my knowledge of distributed consensus, concurrency models, and low-level optimizations.
+</div>
 
 ---
 
-### Core Engineering Focus
+## `$ whoami`
 
-| Domain | Focus Area | Technologies & Objectives |
-| :--- | :--- | :--- |
-| **Backend & Distributed Systems** | Microservices communication, caching strategies, replication, consensus mechanisms. | Go, gRPC, Redis, Kafka, Distributed Systems Design |
-| **AI Systems Infrastructure** | High-throughput agent orchestration, vector retrieval optimization, cost & latency monitoring. | FastAPI, PyTorch, FAISS, LLM Orchestration Pipelines |
-| **Core Software Engineering** | Advanced algorithms, thread safety, system-level design patterns, performance benchmarks. | C++, Python, Concurrency Models |
-| **Target Milestone** | Practical application of system engineering concepts at scale. | **Google SWE Internship 2027** |
+```
+akhil@systems:~$ cat profile.txt
 
----
+Backend engineer building fault-tolerant, observable, and high-throughput systems.
 
-### Engineering Philosophy
+Current focus: distributed systems, system design, and backend infrastructure.
+Engineering mindset: measure first, optimize second, design for failure always.
 
-* **Bridge the Gap**: Turning complex academic research and AI models into fast, reliable, production-ready APIs and pipelines.
-* **Systems First**: Designing backend applications with explicit failure handling, backoff retries, and comprehensive tracing.
-* **Observable & Measurable**: If a system isn't monitored, it isn't production-grade. Observability must be integrated from line one.
-* **Pragmatic Design**: Favoring clean code, testability, and deterministic system behavior over complex, unproven architectures.
+Open Source contributor in the backend and developer tooling space.
+Targeting Google SWE Internship 2027.
 
----
+Location   : Coimbatore, India
+Status     : Building production-grade systems. Actively learning.
+```
 
-### Featured Projects
+I build software that works reliably under real-world conditions — not demos.
 
-#### 1. [Orchestrate: Multi-Modal AI Claim Verification Platform](https://github.com/Akhil006-2/orchestrate-multimodal-evidence-review)
-> **Production-grade multi-agent evidence review and verification platform.**
-
-* **System Design & Orchestration**: Engineered a decoupled, asynchronous multi-agent state-machine for processing high-volume text and vision evidence verification requests.
-* **Fault Tolerance & Reliability**: Implemented robust API provider abstractions with custom retry engines (exponential backoff), circuit breakers, fallback endpoints, and strict JSON schema validation to handle external API failures.
-* **Observability & Analytics**: Integrated granular latency and token cost tracking middleware, providing real-time telemetry and structured JSON logs to optimize compute overhead.
-* **Retrieval Infrastructure**: Built a semantic search and retrieval pipeline using a local FAISS index, utilizing custom reranking to minimize prompt token bloat and maximize retrieval precision.
-* *Technologies*: `Python`, `FastAPI`, `FAISS`, `Vision AI`, `Docker`, `Structured Logging`, `AsyncIO`
-
-#### 2. [AnaMetrix: Enterprise DevOps Analytics Platform](https://github.com/Akshay797-stack/AnaMetrix-dora-metrics)
-> **AI-powered analytics engine tracking and forecasting core DORA metrics.**
-
-* **Asynchronous Telemetry Pipeline**: Built an ingestion pipeline using FastAPI to handle high-frequency webhook notifications from Jenkins and GitHub Actions.
-* **Data Processing & Analytics**: Engineered MongoDB aggregation pipelines to calculate Deployment Frequency, Lead Time for Changes, Mean Time to Recovery (MTTR), and Change Failure Rate in real-time.
-* **Predictive Forecasting**: Developed a backend analytics worker to forecast delivery metrics and identify potential bottlenecks in CI/CD pipelines.
-* **Observability integration**: Exposed custom Prometheus metrics tracking endpoint response distributions, request throughput, and database query latencies.
-* *Technologies*: `FastAPI`, `MongoDB`, `Prometheus`, `Jenkins`, `Python`, `React`, `Docker`
-
-#### 3. Real-Time Emotion & Facial Dynamics Pipeline
-> **High-throughput computer vision pipeline for facial feature extraction and temporal classification.**
-
-* **Multithreaded Frame Reader**: Developed a multithreaded video capture and processing pipeline using OpenCV and MediaPipe to guarantee smooth, low-latency face mesh extraction without frame drops.
-* **Inference Optimization**: Optimized model execution in TensorFlow to process real-time frames efficiently on edge hardware configurations.
-* **Telemetry Dashboard**: Designed a real-time visualization layer using Streamlit to track landmark trajectories, temporal micro-expressions, and classification metrics.
-* *Technologies*: `Python`, `TensorFlow`, `MediaPipe`, `OpenCV`, `NumPy`, `Streamlit`
+My work centers on backend architecture, distributed systems primitives, and infrastructure that teams don't need to babysit. I care deeply about latency, fault isolation, observability, and systems that stay simple enough to reason about as they grow.
 
 ---
 
-### Technical Capabilities
+## Engineering Philosophy
 
-| Category | Technologies |
-| :--- | :--- |
-| **Languages** | ![Python](https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-0D1117?style=flat-square&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-0D1117?style=flat-square&logo=sqlite&logoColor=white) |
-| **Backend & Distributed Systems** | ![FastAPI](https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-0D1117?style=flat-square&logo=flask&logoColor=white) ![REST APIs](https://img.shields.io/badge/REST_APIs-0D1117?style=flat-square&logo=openapi-initiative&logoColor=white) ![WebSockets](https://img.shields.io/badge/WebSockets-0D1117?style=flat-square&logo=socket.io&logoColor=white) |
-| **Databases & Caching** | ![MongoDB](https://img.shields.io/badge/MongoDB-0D1117?style=flat-square&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-0D1117?style=flat-square&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-0D1117?style=flat-square&logo=redis&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=white) |
-| **AI Systems & Data Engineering** | ![PyTorch](https://img.shields.io/badge/PyTorch-0D1117?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-0D1117?style=flat-square&logo=tensorflow&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-0D1117?style=flat-square&logo=opencv&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe-0D1117?style=flat-square&logo=google&logoColor=white) ![FAISS](https://img.shields.io/badge/FAISS-0D1117?style=flat-square&logo=meta&logoColor=white) |
-| **DevOps & Infrastructure** | ![Docker](https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=flat-square&logo=github&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-0D1117?style=flat-square&logo=linux&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-0D1117?style=flat-square&logo=prometheus&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-0D1117?style=flat-square&logo=jenkins&logoColor=white) |
-| **Frontend / Prototyping** | ![React](https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-0D1117?style=flat-square&logo=streamlit&logoColor=white) |
-
----
-
-### System Design & Infrastructure Interests
-
-* **Distributed Consensus**: Active study of Raft and Paxos protocols, understanding log replication, leader election, and partition mitigation strategies.
-* **Message Queues & Event-Driven Architecture**: Designing reliable pub-sub mechanisms, message retry queues, and handling out-of-order execution safely.
-* **High-Performance Caching**: Implementing distributed caching patterns, analyzing cache invalidation, cache stampede prevention, and database synchronization.
-* **Concurrency Models**: Writing safe, lock-free concurrent structures, asynchronous event loops, and mastering CPU boundary isolation.
-* **Reliability Engineering**: Rate-limiting (Token Bucket/Leaky Bucket), load balancing, circuit breakers, and active-active replication systems.
+```
+01  Measure before optimizing.          Profiling beats intuition.
+02  Reliability is a feature.           Uptime is engineering, not luck.
+03  Design for failure.                 Every external call will fail. Eventually.
+04  Simple systems scale better.        Complexity is a cost paid forever.
+05  Readable code outlives clever code. Your future self is the next maintainer.
+06  Observability is mandatory.         You can't fix what you can't see.
+07  Latency has a tail.                 p99 matters more than p50.
+08  Build once. Maintain forever.       Design with the full lifecycle in mind.
+```
 
 ---
 
-### Open Source Contributions & Interests
-I actively seek opportunities to contribute to:
-* **Core Backend Infrastructure**: Low-level database drivers, web frameworks, and microservice middleware.
-* **Developer Tools & CLI**: Compilers, linters, testing frameworks, and custom shell scripting utilities.
-* **AI Infrastructure**: High-performance model servers, embedding pipelines, and vector retrieval engines.
+## Featured Projects
+
+<details>
+<summary><b>▸ Orchestrate — Distributed LLM Orchestration Engine</b></summary>
+
+<br/>
+
+```
+Architecture: Modular provider-abstraction layer over multiple LLM backends
+Scale:        Designed for concurrent workloads with structured retry semantics
+Status:       Active development
+```
+
+**Problem**
+
+Production LLM workflows are fragile: single-provider lock-in, silent prompt failures, zero visibility into latency or token costs, and no structured retry logic. Most "AI backends" are procedural scripts, not engineered systems.
+
+**What Orchestrate Solves**
+
+| Concern | Implementation |
+|---|---|
+| Provider abstraction | Unified interface over OpenAI, Anthropic, Gemini — swap without code changes |
+| Fault tolerance | Exponential backoff retry engine with configurable jitter |
+| Observability | Structured JSON logging + per-call latency tracking |
+| Prompt integrity | Schema-validated JSON outputs with guardrail enforcement |
+| Caching | Response memoization to reduce redundant API calls and latency |
+| Evaluation | Built-in eval framework for prompt quality regression testing |
+| Versioning | Prompt versioning with rollback support |
+
+**Architecture**
+
+```
+┌─────────────────────────────────────────────────────┐
+│                   Orchestrate Engine                │
+│                                                     │
+│  ┌──────────────┐    ┌──────────────────────────┐  │
+│  │ Prompt Store │───▶│    Execution Planner      │  │
+│  │  (versioned) │    │  (retry + fallback logic) │  │
+│  └──────────────┘    └──────────┬───────────────┘  │
+│                                 │                   │
+│  ┌──────────────────────────────▼────────────────┐  │
+│  │            Provider Abstraction Layer          │  │
+│  │   OpenAI   │   Anthropic   │   Gemini  │ ...  │  │
+│  └──────────────────────────────────────────────┘  │
+│                                                     │
+│  ┌──────────────┐    ┌──────────────┐               │
+│  │  JSON Guard  │    │ Eval Runner  │               │
+│  │  (schema val)│    │ (regression) │               │
+│  └──────────────┘    └──────────────┘               │
+│                                                     │
+│  ┌────────────────────────────────────────────────┐ │
+│  │    Structured Logger + Latency Tracker         │ │
+│  └────────────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────┘
+```
+
+**Engineering Challenges**
+- Designing a provider interface that doesn't leak implementation details across boundaries
+- Building retry semantics that handle rate limits, timeouts, and partial failures distinctly
+- Making prompt versioning queryable without a heavy database dependency
+
+**Tech Stack**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
+![JSON Schema](https://img.shields.io/badge/JSON_Schema-000000?style=flat-square&logo=json&logoColor=white)
+
+[![View Repository](https://img.shields.io/badge/GitHub-Orchestrate-58A6FF?style=flat-square&logo=github)](https://github.com/Akhil006-2)
+
+</details>
 
 ---
 
-### Telemetry & Git Analytics
+<details>
+<summary><b>▸ AnaMetrix — Engineering Telemetry & DORA Metrics Platform</b></summary>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Akhil006-2&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Akhil's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akhil006-2&layout=compact&theme=tokyonight&hide_border=true" alt="Akhil's Top Languages" width="48%" />
-</p>
+<br/>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Akhil006-2&theme=tokyonight&hide_border=true" alt="Akhil's Streak Stats" width="98%" />
-</p>
+```
+Architecture: FastAPI backend + MongoDB time-series store + Prometheus metrics export
+Scale:        Multi-team CI/CD pipeline aggregation with real-time dashboards
+Status:       Active development
+```
 
-<p align="center">
-  <!-- Contribution Snake Animation generated via GitHub Action -->
-  <img src="https://raw.githubusercontent.com/Akhil006-2/Akhil006-2/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="98%" />
-</p>
+**Problem**
+
+Engineering teams fly blind without DORA metrics. Deployment frequency, lead time, MTTR, and change failure rate live across disconnected systems. No single platform gives teams a real-time engineering health signal.
+
+**What AnaMetrix Solves**
+
+| Metric | Implementation |
+|---|---|
+| Deployment Frequency | Webhook ingestion from CI/CD pipelines |
+| Lead Time for Changes | Git commit → production timestamp tracking |
+| MTTR | Incident lifecycle state machine |
+| Change Failure Rate | Rollback event correlation |
+| Forecasting | Time-series trend projection over 30/60/90 day windows |
+
+**Architecture**
+
+```
+┌──────────────────────────────────────────────────────┐
+│                    AnaMetrix Platform                │
+│                                                      │
+│  CI/CD Webhooks ──▶ Ingestion API (FastAPI)          │
+│  GitHub Events  ──▶       │                          │
+│  Incident Hooks ──▶       ▼                          │
+│                    Event Normalizer                  │
+│                           │                          │
+│              ┌────────────▼────────────┐             │
+│              │     MongoDB Store        │             │
+│              │  (time-series + indexes) │             │
+│              └────────────┬────────────┘             │
+│                           │                          │
+│       ┌───────────────────▼──────────────────┐       │
+│       │         Metrics Computation Layer     │       │
+│       │   DORA Aggregator │ Trend Forecaster  │       │
+│       └───────────────────┬──────────────────┘       │
+│                           │                          │
+│   Prometheus Exporter ◀───┘   Dashboard API          │
+│   (scrape endpoint)           (REST + WebSocket)     │
+└──────────────────────────────────────────────────────┘
+```
+
+**Engineering Challenges**
+- Normalizing event schemas across heterogeneous CI/CD providers (GitHub Actions, Jenkins, GitLab CI)
+- Designing MongoDB indexes for time-range aggregation queries without full collection scans
+- Keeping Prometheus metric cardinality bounded to avoid memory blowup
+
+**Tech Stack**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+[![View Repository](https://img.shields.io/badge/GitHub-AnaMetrix-58A6FF?style=flat-square&logo=github)](https://github.com/Akhil006-2)
+
+</details>
 
 ---
 
-### Professional Network & Contact
+<details>
+<summary><b>▸ Emotion Recognition — Real-Time Computer Vision Inference Pipeline</b></summary>
 
-* **LinkedIn**: [linkedin.com/in/akhil-g-287249328](https://www.linkedin.com/in/akhil-g-287249328)
-* **GitHub**: [github.com/Akhil006-2](https://github.com/Akhil006-2)
-* **Location**: Coimbatore, Tamil Nadu, India
+<br/>
+
+```
+Architecture: Multithreaded OpenCV capture → TensorFlow inference → live dashboard
+Scale:        Real-time inference with optimized frame pipeline
+Status:       Completed
+```
+
+**Problem**
+
+Naive emotion recognition pipelines are latency-bound: blocking I/O on video capture stalls the inference thread, making real-time feel like slideshow. Most implementations don't separate capture, inference, and rendering into independent stages.
+
+**What the Pipeline Solves**
+
+| Concern | Implementation |
+|---|---|
+| Frame pipeline | Producer-consumer threading model — capture and inference run independently |
+| Inference latency | TensorFlow model quantization + frame-skip under load |
+| Real-time display | Non-blocking OpenCV rendering thread |
+| Dashboard | Live confidence score visualization per emotion class |
+
+**Architecture**
+
+```
+┌─────────────────────────────────────────────┐
+│       Emotion Recognition Pipeline          │
+│                                             │
+│  Capture Thread ──▶ Frame Queue             │
+│  (OpenCV)               │                   │
+│                         ▼                   │
+│              Inference Thread               │
+│              (TensorFlow model)             │
+│                         │                   │
+│                         ▼                   │
+│              Render Thread ──▶ Dashboard    │
+│              (OpenCV window)  (live scores) │
+└─────────────────────────────────────────────┘
+```
+
+**Engineering Challenges**
+- Preventing frame queue backpressure from blocking the capture thread under load
+- Tuning inference frequency vs. display refresh rate for perceived smoothness
+
+**Tech Stack**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+
+[![View Repository](https://img.shields.io/badge/GitHub-Emotion--Recognition-58A6FF?style=flat-square&logo=github)](https://github.com/Akhil006-2)
+
+</details>
 
 ---
-*Fun Fact: I enjoy analyzing database query execution plans and converting resource-heavy research prototypes into lightweight, production-grade backend engines.*
+
+## Tech Stack
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+
+**Backend & APIs**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![REST](https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socket.io&logoColor=white)
+
+**Databases**
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+
+**Observability & Infrastructure**
+
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+**AI / ML**
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
+
+**Learning (2025)**
+
+![Go](https://img.shields.io/badge/Go-learning-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-learning-000000?style=flat-square&logo=rust&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-learning-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-learning-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-learning-244C5A?style=flat-square&logo=grpc&logoColor=white)
+![Raft](https://img.shields.io/badge/Raft_Consensus-learning-58A6FF?style=flat-square)
+
+---
+
+## Engineering Focus Areas
+
+```
+Distributed Systems      ████████████░░░░  Actively learning — reading Designing Data-Intensive Applications
+System Design            ████████████░░░░  Practicing HLD + LLD; studying real architectures
+Backend Infrastructure   █████████████░░░  Applied in project work (Orchestrate, AnaMetrix)
+Observability            ████████████░░░░  Prometheus, structured logging, latency tracking
+Algorithms & DSA         ██████████████░░  Competitive programming, preparing for SWE interviews
+Concurrency              ████████░░░░░░░░  Multithreading in Python; learning Go concurrency model
+Networking               ██████░░░░░░░░░░  TCP/IP fundamentals, HTTP internals, DNS
+```
+
+---
+
+## What I'm Currently Studying
+
+<details>
+<summary><b>▸ Distributed Systems</b></summary>
+
+<br/>
+
+```
+Reading:   Designing Data-Intensive Applications — Martin Kleppmann
+           Distributed Systems (van Steen & Tanenbaum)
+Studying:  Raft consensus algorithm
+           CAP theorem implications in real systems
+           Clock synchronization (Lamport, vector clocks)
+           Consistent hashing and its ring implementation
+           Leader election patterns
+Building:  Small Raft implementation to understand log replication
+```
+
+</details>
+
+<details>
+<summary><b>▸ System Design</b></summary>
+
+<br/>
+
+```
+Practicing:  URL shortener, rate limiter, notification system, distributed cache
+Focus:       Capacity estimation, bottleneck identification, trade-off articulation
+Studying:    How Twitter, Discord, Uber, and Stripe actually built their backends
+             Read-heavy vs write-heavy system design distinctions
+             Sharding strategies and their rebalancing costs
+```
+
+</details>
+
+<details>
+<summary><b>▸ Algorithms & Competitive Programming</b></summary>
+
+<br/>
+
+```
+Platform:    LeetCode, Codeforces
+Focus:       Graphs (DFS/BFS, Dijkstra, Bellman-Ford, union-find)
+             Dynamic programming (knapsack, LCS, interval DP)
+             Trees (segment trees, tries, binary lifting)
+             String algorithms (KMP, Z-function, Aho-Corasick)
+Target:      Google interview readiness by mid-2026
+```
+
+</details>
+
+<details>
+<summary><b>▸ Go & Systems Programming</b></summary>
+
+<br/>
+
+```
+Learning:    Go concurrency model — goroutines, channels, select
+             Memory model and escape analysis basics
+             Writing small CLI tools and HTTP servers in Go
+Goal:        Rebuild a component of Orchestrate in Go to compare throughput
+```
+
+</details>
+
+---
+
+## Interests in Backend Engineering
+
+These are the problems I find worth thinking about:
+
+```
+Rate Limiting           — Token bucket vs leaky bucket vs sliding window; distributed rate limiting with Redis
+Load Balancing          — L4 vs L7, consistent hashing, least-connections, session stickiness
+Caching                 — Cache invalidation strategies, cache-aside vs write-through, CDN edge caching
+Distributed Queues      — Kafka log architecture, consumer group rebalancing, at-least-once delivery
+Service Meshes          — Sidecar proxies, mTLS, observability at the network layer
+Fault Isolation         — Circuit breakers, bulkheads, timeouts, retries with backoff
+Database Internals      — B-tree vs LSM-tree, WAL, MVCC, index design
+Consensus Protocols     — Raft log replication, leader election, split-brain prevention
+Observability           — The three pillars: metrics, logs, traces. Why you need all three.
+```
+
+---
+
+## GitHub Stats
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Akhil006-2&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=8b949e&rank_icon=github&include_all_commits=true" />
+&nbsp;
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akhil006-2&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=8b949e&langs_count=8" />
+
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com/?user=Akhil006-2&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=58A6FF&ring=58A6FF&fire=FF7B54&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e" />
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Akhil006-2&theme=github-compact&bg_color=0d1117&color=58A6FF&line=58A6FF&point=FFFFFF&hide_border=true" width="96%" />
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=Akhil006-2&theme=onestar&no-frame=true&no-bg=true&column=7&margin-w=10" />
+
+</div>
+
+---
+
+## Contribution Activity
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Akhil006-2/Akhil006-2/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
+</div>
+
+> To enable the snake animation, add the GitHub Action below to your profile repository.
+
+---
+
+## 2027 Engineering Roadmap
+
+```
+2025 Q1─Q2  ──▶  Deepen Orchestrate: add gRPC transport, persistent prompt store, multi-node eval
+            ──▶  AnaMetrix: add Grafana integration, alert rule engine, team-level DORA breakdown
+            ──▶  Study Raft. Implement log replication from scratch.
+            ──▶  Go: rewrite one Orchestrate component. Benchmark against Python.
+
+2025 Q3─Q4  ──▶  Kafka: build a small event pipeline project (producer → consumer → sink)
+            ──▶  Redis internals: persistence modes, cluster topology, eviction policies
+            ──▶  System Design: complete 40 system design case studies with written breakdowns
+            ──▶  Kubernetes: deploy Orchestrate to a local k8s cluster; understand pod scheduling
+
+2026        ──▶  Open Source: meaningful contribution to a backend/infra OSS project
+            ──▶  Rust: systems programming fundamentals; memory model, ownership, lifetimes
+            ──▶  Interview prep: LeetCode 300+ (focus: graphs, DP, trees)
+            ──▶  Apply: Google SWE Internship 2027
+
+2027        ──▶  Google SWE Internship
+```
+
+---
+
+## GitHub Action — Contribution Snake
+
+```yaml
+# .github/workflows/snake.yml
+# Add this to your profile repository to generate the contribution snake animation.
+
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+---
+
+## Repository Standards
+
+Every project I ship includes:
+
+```
+README.md           Architecture overview, installation, API reference
+ARCHITECTURE.md     System design decisions and trade-offs documented
+/docs               API docs, sequence diagrams, deployment guide
+Dockerfile          Reproducible build
+docker-compose.yml  Local development environment
+.github/workflows   CI pipeline — lint, test, build on every PR
+BENCHMARKS.md       Baseline performance numbers
+CHANGELOG.md        What changed and why
+```
+
+---
+
+## Open Source
+
+Interested in contributing to projects in:
+
+```
+Backend infrastructure    (API frameworks, task queues, job schedulers)
+Developer tooling         (CLI tools, observability libraries, testing frameworks)
+Distributed systems       (consensus implementations, consistent hash libraries)
+Observability             (metrics exporters, log aggregators, trace samplers)
+```
+
+If you maintain a project in these areas and want a contributor — reach out.
+
+---
+
+<div align="center">
+
+```
+akhil@systems:~$ uptime
+seeking: google swe internship 2027
+building: distributed systems, backend infrastructure
+status: online
+
+```
+
+<br/>
+
+**[GitHub](https://github.com/Akhil006-2)** &nbsp;·&nbsp; **[LinkedIn](https://linkedin.com/in/akhil-g-287249328)**
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=100&section=footer" width="100%" />
+
+</div>
