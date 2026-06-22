@@ -1,8 +1,7 @@
 <div align="center">
 
 <!-- BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=140&section=header&text=&animation=fadeIn" width="100%" />
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=timeAuto&height=140&section=header&text=&animation=fadeIn" width="100%" />
 
 </p>
 <!-- TYPING HEADER -->
